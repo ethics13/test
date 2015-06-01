@@ -1,0 +1,41 @@
+.themeBlue {
+	background-color: #0000FF;
+}
+
+.shade1Blue{
+	background-color: #4c4cff;
+	color: #FFFFFF;
+}
+
+.shade2Blue{
+	background-color: #0000b2;
+	color: #FFFFFF;
+}
+
+.themeRed {
+	background-color: #FF0000;
+}
+
+.shade1Red{
+	background-color: #ff4c4c;
+	color: #FFFFFF;
+}
+
+.shade2Red{
+	background-color: #B20000;
+	color: #FFFFFF;
+}
+
+.themeGreen {
+	background-color: #00FF00;
+}
+
+.shade1Green{
+	background-color: #4cff4c;
+	color: #000000;
+}
+
+.shade2Green{
+	background-color: #009900;
+	color: #000000;
+}
