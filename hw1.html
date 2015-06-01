@@ -1,0 +1,73 @@
+<!doctype html>
+<html ng-app = "homework01">
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="hw1.css">
+</head>
+
+ <body>
+   <div style="width:100%;"> 
+Part 1
+<div style="float:left; width:20%;">
+<!-- <label><input type="radio" name="theme" value="themeBlue" data-ng-model="ctrl.themeSelection">Blue</label>
+ -->
+ 
+<body data-ng-controller="mainController as ctrl" data-ng-class="ctrl.themeSelection">
+<form role="form" class="form form-inline">
+<div style="float:right; width:80%; ">
+
+  <div class="form-group radio">
+  	<label><input type="radio" name="theme" value="themeBlue" data-ng-model="ctrl.themeSelection">Blue</label>
+ <label><input type="radio" name="theme" value="themeRed" data-ng-model="ctrl.themeSelection">Red</label>
+<label><input type="radio" name="theme" value="themeGreen" data-ng-model="ctrl.themeSelection">Green</label>
+</div>
+</form>
+</div>
+
+</div>
+Part 2
+
+
+<div>  <input type="button" value="Blue" ng-click="myStyle={background:'blue'}">
+  <input type="button" value="Yellow" ng-click="myStyle={background:'yellow'}">
+  <input type="button" value="Lime" ng-click="myStyle={background:'lime'}">
+  <input type="button" value="Magenta" ng-click="myStyle={background:'magenta'}">
+  <input type="button" value="Pink" ng-click="myStyle={background:'pink'}">
+  <input type="button" value="White" ng-click="myStyle={background:'white'}"> 
+ </div>
+
+
+
+   <form><div ng-style="myStyle" >
+    </BR></BR></BR></BR></BR>
+    <Center>
+    <h1>Lorem ipsum dolor sit amet, cu pro error scaevola, cu usu ferri quando liberavisse. Ne vix epicuri urbanitas, vix modus vocent omittantur no. Ei
+    </H1></center></BR></BR></BR></BR></BR>
+   </div>
+</form>
+
+<form role="form" class="form form-inline">
+<div style="float:right; width:80%; ">
+
+   <div ng-style="myStyle" >
+    </BR></BR></BR></BR></BR>
+    <Center>
+    <h1>Hello</BR>
+     Angular</BR>
+     Corner</BR>
+    POST BY:Leon KEYLIN
+    </H1></center></BR></BR></BR></BR></BR>
+   </div>
+</form>
+
+</h1>
+</Center>
+</div>
+
+  <!--   // <script src="hw1.js"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="C:\Users\Katia\Dropbox\Angular\HW1\hw1.js"></script>
+</body>
+</html>
